@@ -3,7 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Coba CSS - Selector dan Properties</title>
+    <style>
+      /* Selector */
+      h1 {
+        color: lightblue;
+        font-size: 45px;
+        text-align: center;
+      }
+
+      /* Properties */
+      p {
+        color: navy;
+        font-size: 30px;
+        text-align: center;
+      }
+      .p2 {
+        color: green;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      #judul {
+        text-transform: uppercase;
+      }
+
+      #garis-bawah {
+        text-decoration: underline;
+      }
+
+      .cetak-miring {
+        font-style: italic;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1 id="judul" class="p2 cetak-miring">Hello World</h1>
+    <p id="garis-bawah" class="cetak-miring">
+      CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain
+      tampilan halaman web. Dengan
+    </p>
+    <p class="p2">
+      CSS memungkinkan kita untuk mengatur warna, ukuran, tata letak, dan
+      berbagai aspek visual lainnya dari elemen-elemen HTML
+    </p>
+  </body>
 </html>
