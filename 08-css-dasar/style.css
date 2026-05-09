@@ -1,0 +1,13 @@
+/* Selector */
+h1 {
+  color: lightblue;
+  font-size: 45px;
+  text-align: center;
+}
+
+/* Properties */
+p {
+  color: navy;
+  font-size: 30px;
+  text-align: center;
+}
